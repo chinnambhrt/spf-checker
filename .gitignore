@@ -1,0 +1,15 @@
+# Folders
+node_modules/
+dist/
+coverage/
+
+
+# Files
+.env
+.env.local
+*.log
+*.test.*
+*.spec.*
+
+package-lock.json
+yarn.lock
