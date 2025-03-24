@@ -15,16 +15,13 @@ Read more about [RFC 6652](https://datatracker.ietf.org/doc/html/rfc6652).
 ## Usage
 
 ```javascript
-
 const { validateSPF } = require('spf-checker')
 
 validateSPF('35.190.247.16', 'gmail.com').then(resp => {
 
     const result = resp.result;
-    
-    expect(result).to.be.equal('pass');
 
-    done();
+    console.log('SPF result', result); // output: SPF result pass
 
  }).catch(err => {
 
