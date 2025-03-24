@@ -12,6 +12,12 @@ Spf Checker is a simple tool to validate IP addresses and domains against SPF (S
 
 Read more about [RFC 6652](https://datatracker.ietf.org/doc/html/rfc6652).
 
+## Installing
+
+```bash
+npm i spf-checker
+```
+
 ## Usage
 
 ```javascript
