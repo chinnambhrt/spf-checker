@@ -1,0 +1,24 @@
+{
+  "name": "spf-checker",
+  "version": "1.0.0",
+  "description": "Simple spf checker tool",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chinnambhrt/spf-checker"
+  },
+  "keywords": [
+    "spf",
+    "email",
+    "rfc6652"
+  ],
+  "author": "Bharath Chinnam",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0"
+  }
+}
