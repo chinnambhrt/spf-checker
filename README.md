@@ -14,7 +14,7 @@ Read more about [RFC 6652](https://datatracker.ietf.org/doc/html/rfc6652).
 
 ## Installing
 
-```bash
+```sh
 npm i spf-checker
 ```
 
